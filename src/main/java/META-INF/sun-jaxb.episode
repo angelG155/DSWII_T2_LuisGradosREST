@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v4.0.5 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.10.12 a las 02:33:21 AM PET
+  -->
+  <bindings scd="x-schema::tns" if-exists="true" auto-acknowledge="true" xmlns:tns="http://www.edu.cibertec.com/pagos">
+    <schemaBindings map="false">
+      <package name="com.cibertec.edu.soap.entities"/>
+    </schemaBindings>
+    <bindings scd="tns:ConsultaPagosRequest" if-exists="true" auto-acknowledge="true">
+      <class ref="com.cibertec.edu.soap.entities.ConsultaPagosRequest"/>
+    </bindings>
+    <bindings scd="tns:ListadoPagos" if-exists="true" auto-acknowledge="true">
+      <class ref="com.cibertec.edu.soap.entities.ListadoPagos"/>
+    </bindings>
+    <bindings scd="~tns:DetallePago" if-exists="true" auto-acknowledge="true">
+      <class ref="com.cibertec.edu.soap.entities.DetallePago"/>
+    </bindings>
+  </bindings>
+</bindings>
+
